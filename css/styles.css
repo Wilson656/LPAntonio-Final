@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  font-family: "lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #acd3e3;
+}
+
+.btn-default {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #18b8a5;
+  border-radius: 12px;
+  padding: 25px 30px;
+  font-weight: 600;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 3s ease;
+}
+.btn-default i {
+  padding-right: 5px;
+  font-weight: 600;
+}
+
+.btn-default:hover {
+  background-color: #075e54;
+}
+
+.social-media-buttons {
+  display: flex;
+  gap: 18px;
+}
+.social-media-buttons a {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: hsl(173, 77%, 41%);
+  font-size: 1.25rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #1d1d1d;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 1s ease;
+  transition: background-color 3s ease;
+}
+
+.social-media-buttons a:hover {
+  background-color: #075e54;
+  box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+}
+.social-media-buttons i {
+  font-weight: 600;
+}
+
+#bg .bg_wave {
+  display: flex;
+  width: 100%;
+  gap: 25px;
+}
+#bg .bg_wave_invert {
+  display: flex;
+  width: 100%;
+  background-color: transparent;
+  gap: 25px;
+}
+
+#div-fixa {
+  position: fixed;
+  bottom: 20px;
+  margin: 0 20px;
+  background-color: rgb(89, 245, 122);
+  width: 230px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#div-fixa img {
+  width: 50px;
+  height: 50px;
+}
+#div-fixa a {
+  text-decoration: none;
+}
+#div-fixa a .flex-itens {
+  display: flex;
+  align-items: center;
+}
+
+#div-fixa .flex-itens span {
+  display: block;
+  font-weight: bold;
+  color: #040305;
+  margin-left: 5px;
+}
+
+.flutuar {
+  animation-name: flutuar;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes flutuar {
+  from {
+    transform: translate3d(0, 0, 0);
+    filter: brightness(100%);
+  }
+  to {
+    transform: translate3d(0, -15px, 0);
+    filter: brightness(120%);
+  }
+}
+
+.top {
+  position: fixed;
+  bottom: 20px;
+  left: 90%;
+  margin: 0 20px;
+  width: 230px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+button {
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 1px 1px 12px #c5c5c5, 2px 2px 12px #ffffff;
+}
+
+button:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+#banner {
+  display: flex;
+  align-items: start;
+  justify-content: end;
+  width: 70%;
+}
+#banner img {
+  height: 100%;
+  width: fit-content;
+}
+
+#footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+#footer h3 {
+}
+
+#footer img {
+  height: 110px;
+}
+
+@media (max-width: 1170px) {
+  .top {
+    position: fixed;
+    bottom: 20px;
+    left: 80%;
+    margin: 0 20px;
+    width: 200px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .btn_top {
+    color: #090909;
+    padding: 0.5em 1em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 1px 1px 8px #c5c5c5, 2px 2px 8px #ffffff;
+  }
+
+  button:active {
+    color: #666;
+    box-shadow: inset 1px 1px 8px #c5c5c5, inset -4px -4px 8px #ffffff;
+  }
+}
+
+@media (max-width: 425px) {
+  .top {
+    position: fixed;
+    bottom: 20px;
+    left: 70%;
+    margin: 0 20px;
+    width: 200px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .btn_top {
+    color: #090909;
+    padding: 0.5em 1em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 1px 1px 8px #c5c5c5, 2px 2px 8px #ffffff;
+  }
+
+  button:active {
+    color: #666;
+    box-shadow: inset 1px 1px 8px #c5c5c5, inset -4px -4px 8px #ffffff;
+  }
+}

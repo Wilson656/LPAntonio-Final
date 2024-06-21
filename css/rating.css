@@ -1,0 +1,157 @@
+#rating {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 28px 12%;
+  background-image: url(../media/bg-av.png);
+  background-size: cover;
+  justify-content: center;
+  gap: 10%;
+}
+
+.rating_txt {
+  text-align: center;
+}
+
+.rating_txt h2 {
+  font-size: 2rem;
+}
+
+.rating_txt ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.rating_txt li {
+  font-size: 25px;
+  color: #ffd122;
+}
+
+#siler-box {
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+}
+
+.slider_one,
+.slider_two {
+  width: 38%;
+  height: 250px;
+  margin-top: 7%;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 6px 20px #acd3e3;
+  background-color: #e7e7e7;
+}
+
+.slider_one ul,
+.slider_two ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.slider_one li,
+.slider_two li {
+  font-size: 15px;
+  color: #ffd122;
+}
+
+.slides_one,
+.slides_two {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide_one,
+.slide_two {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+}
+
+.slide_one p,
+.slide_two p {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.slide_one span,
+.slide_two span {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Media Queries */
+@media (max-width: 1170px) {
+  #siler-box {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rating_txt {
+    margin-left: 0px;
+  }
+  .slider_one {
+    width: 350px;
+  }
+  .slider_two {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .rating_txt {
+    margin-left: 8px;
+  }
+  #siler-box {
+    margin-left: 0%;
+  }
+}
+
+@media (max-width: 768px) {
+  .rating_txt {
+    margin-left: 28px;
+  }
+  #siler-box {
+    margin-left: 0%;
+  }
+}
+
+@media (max-width: 425px) {
+  #siler-box {
+    margin-left: 0%;
+  }
+}
+
+@media (max-width: 375px) {
+  #siler-box {
+    margin-top: 50px;
+    margin-left: -2%;
+  }
+  .rating_txt {
+    margin-left: 20px;
+    margin-top: 90px;
+  }
+  .slider_one {
+    width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  #siler-box {
+    margin-top: 50px;
+  }
+  .rating_txt {
+    margin-left: 5px;
+    margin-top: 90px;
+  }
+  .slider_one {
+    width: 250px;
+  }
+}

@@ -1,0 +1,124 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section.aboutme {
+  padding: 20px;
+  background-color: #acd3e3; /* Cor de fundo azul clara */
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2.sc_title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+h2.sc_title span {
+  color: #18b8a5; /* Cor do span */
+}
+
+#abm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+#abm_picture {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#abm_picture img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.abm_box {
+  max-width: 800px;
+  text-align: justify;
+  padding: 0 20px;
+}
+
+p.sc_text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+p.sc_text_mobile {
+  display: none;
+}
+
+#abm-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+a.btn-aboutme {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #18b8a5; /* Cor verde */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+a.btn-aboutme:hover {
+  background-color: #218838; /* Cor verde escura ao passar o mouse */
+}
+
+/* Estilos Responsivos */
+
+@media (min-width: 1189px) {
+  #abm {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  p.sc_text {
+    display: flex;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  p.sc_text_mobile {
+    display: none;
+  }
+  #abm_picture {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
+  .abm_box {
+    flex: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  h2.sc_title {
+    font-size: 2.5rem;
+  }
+
+  p.sc_text {
+    font-size: 1.1rem;
+  }
+
+  a.btn-aboutme {
+    padding: 15px 30px;
+  }
+}

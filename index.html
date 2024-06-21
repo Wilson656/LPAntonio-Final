@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/aboutme.css" />
+    <link rel="stylesheet" href="./css/services.css" />
+    <link rel="stylesheet" href="./css/clinic.css" />
+    <link rel="stylesheet" href="./css/rating.css" />
+    <link rel="stylesheet" href="./css/talk.css" />
+    <link rel="stylesheet" href="./css/wppbutton.css" />
+    <!--FontWelsome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--JQuery-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Antonio Figueiredo Psicanalista</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <img src="./media/Logo.png" id="nav_logo" />
+        <ul id="nav_list">
+          <li class="nav-item">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#aboutme">Quem sou</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a href="#rating">Avaliações</a>
+          </li>
+          <li class="nav-item">
+            <a href="#clinic">Consultorio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#scheduling">Agendamento</a>
+          </li>
+        </ul>
+        <button class="btn-default-h">
+          <i class="fa-brands fa-whatsapp"></i>AGENDE AQUI
+        </button>
+        <button id="mobile_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav-item">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#aboutme">Quem sou</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a href="#clinic">Consultorio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#scheduling">Agendamento</a>
+          </li>
+        </ul>
+        <button class="btn-default">
+          <i class="fa-brands fa-whatsapp"></i>AGENDE AQUI
+        </button>
+      </div>
+    </header>
+
+    <main id="content">
+      <section id="home">
+        <div id="cta">
+          <h1 class="title">Cuidando da sua saúde <span> mental</span></h1>
+          <p class="description">
+            Descubra o poder da psicoterapia para transformar sua vida. Dê o
+            primeiro passo em direção ao bem-estar e à felicidade.
+          </p>
+
+          <div id="cta_buttons">
+            <a href="#" class="btn-default">MARQUE SUA CONSULTA AGORA!</a>
+            <div class="social-media-buttons">
+              <a href="">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div id="banner">
+          <img src="./media/Hero.png" alt="" />
+        </div>
+      </section>
+      <!--Wave--Background-->
+      <div class="bg">
+        <svg
+          version="1.0"
+          xmlns="http://www.w3.org/2000/svg"
+          class="bg_wave"
+          viewBox="0 0 1251.000000 84.000000"
+          preserveAspectRatio="xMidYMid meet"
+        >
+          <g
+            transform="translate(0.000000,84.000000) scale(0.100000,-0.100000)"
+            fill="#efefef"
+            stroke="none"
+          >
+            <path
+              d="M0 685 l0 -154 53 -16 c153 -46 465 -64 812 -46 121 6 483 31 805 56
+         1053 80 1376 95 2030 95 1131 0 1954 -79 3920 -375 745 -112 919 -137 1190
+         -170 583 -71 532 -68 1328 -72 625 -4 754 -2 875 12 409 46 802 139 1084 256
+         139 58 217 99 321 169 l92 61 0 170 0 169 -6255 0 -6255 0 0 -155z"
+            />
+          </g>
+        </svg>
+      </div>
+      <section class="aboutme">
+        <h2 id="aboutme" class="sc_title">Antonio <span>Figueiredo</span></h2>
+        <div id="abm">
+          <div id="abm_picture">
+            <img src="./media/Aboutme.png" alt="" />
+          </div>
+          <div class="abm_box">
+            <p class="sc_text">
+              Sou um psicanalista e psicoterapeuta altamente qualificado, com
+              mais de uma década de experiência ajudando pessoas a transformarem
+              suas vidas. Formei-me pela prestigiada Sociedade Brasileira de
+              Psicanálise (SBPI) em 11 de novembro de 2007, o que me
+              proporcionou uma base sólida e abrangente no campo da psicanálise.
+              Minha dedicação ao desenvolvimento pessoal e à excelência
+              profissional levou-me a buscar qualificações adicionais: Master
+              Coaching pela Sociedade Brasileira de Coaching, concluído em 2012,
+              onde aprimorei minhas habilidades para impulsionar o sucesso e o
+              bem-estar dos meus clientes. Practitioner em Programação
+              Neurolinguística (PNL) pela Sociedade Brasileira de Coaching,
+              concluído em 2013, capacitando-me a utilizar técnicas avançadas
+              para ajudar você a reprogramar padrões de pensamento e
+              comportamento.Combino a profundidade da psicanálise com abordagens
+              modernas de coaching e PNL para oferecer um atendimento
+              personalizado e eficaz. Seja qual for o seu desafio – desde
+              questões emocionais complexas até o desejo de alcançar metas
+              específicas – estou aqui para guiá-lo em sua jornada de
+              autodescoberta e crescimento. Invista em você e permita-se
+              experimentar uma transformação real e duradoura. Agende uma
+              consulta e descubra como podemos trabalhar juntos para alcançar
+              seus objetivos e melhorar sua qualidade de vida.
+            </p>
+            <p class="sc_text_mobile">
+              Sou um psicanalista e psicoterapeuta altamente qualificado, com
+              mais de uma década de experiência ajudando pessoas a transformarem
+              suas vidas. Formei-me pela prestigiada Sociedade Brasileira de
+              Psicanálise (SBPI) em 11 de novembro de 2007, o que me
+              proporcionou uma base sólida e abrangente no campo da psicanálise.
+              Minha dedicação ao desenvolvimento pessoal e à excelência
+              profissional levou-me a buscar qualificações adicionais: Master
+              Coaching pela Sociedade Brasileira de Coaching, concluído em 2012,
+              onde aprimorei minhas habilidades para impulsionar o sucesso e o
+              bem-estar dos meus clientes. Practitioner em Programação
+              Neurolinguística (PNL) pela Sociedade Brasileira de Coaching,
+              concluído em 2013, capacitando-me a utilizar técnicas avançadas
+              para ajudar você a reprogramar padrões de pensamento e
+              comportamento.
+            </p>
+
+            <div id="abm-button">
+              <a href="#" class="btn-aboutme">MARQUE SUA CONSULTA AGORA!</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <h2 class="list_title">Quando buscar <span>terapia?</span></h2>
+        <div class="dropdown">
+          <details id="list">
+            <summary>Depressão<i class="fa-solid fa-arrow-down"></i></summary>
+            <p>
+              A depressão é um transtorno mental comum, mas sério, caracterizado
+              por uma persistente sensação de tristeza e perda de interesse em
+              atividades que anteriormente eram prazerosas. Ela afeta como uma
+              pessoa se sente, pensa e lida com atividades diárias, como dormir,
+              comer e trabalhar.
+            </p>
+          </details>
+          <details id="list">
+            <summary>Ansiedade<i class="fa-solid fa-arrow-down"></i></summary>
+            <p>
+              Ansiedade é uma resposta natural do corpo ao estresse. É uma
+              sensação de medo ou apreensão sobre o que está por vir, como a
+              antecipação de um evento importante, uma decisão a ser tomada ou
+              uma situação potencialmente perigosa. Embora todos experimentem
+              ansiedade ocasionalmente, algumas pessoas podem ter distúrbios de
+              ansiedade, que são condições de saúde mental caracterizadas por
+              uma ansiedade persistente e excessiva que interfere na vida
+              cotidiana.
+            </p>
+          </details>
+          <details id="list">
+            <summary>Burnout<i class="fa-solid fa-arrow-down"></i></summary>
+            <p>
+              O Burnout pode levar a problemas de saúde física e mental, como
+              depressão, ansiedade, insônia e doenças cardiovasculares. É
+              importante identificar os sintomas e buscar apoio adequado, como
+              mudanças no ambiente de trabalho, terapia e práticas de
+              autocuidado.
+            </p>
+          </details>
+          <details id="list">
+            <summary>Fobias<i class="fa-solid fa-arrow-down"></i></summary>
+            <p>
+              Fobias são um tipo de transtorno de ansiedade caracterizado por um
+              medo intenso e irracional de objetos, situações ou atividades
+              específicas. Esses medos são desproporcionais ao perigo real
+              apresentado e podem levar a uma forte reação de evitação.
+            </p>
+          </details>
+          <details id="list">
+            <summary>
+              Relacionamentos abusivos<i class="fa-solid fa-arrow-down"></i>
+            </summary>
+            <p>
+              Relacionamentos abusivos são caracterizados por um desequilíbrio
+              de poder, onde uma pessoa exerce controle e dominação sobre a
+              outra, muitas vezes de maneira sutil e gradual. Os abusos podem
+              ser emocionais, psicológicos, físicos, sexuais ou uma combinação
+              deles. As vítimas frequentemente sofrem manipulação, humilhação,
+              isolamento social, coerção e intimidação. É comum que o abuso seja
+              mascarado por gestos de carinho intercalados com comportamentos
+              abusivos, o que dificulta a percepção da vítima e pode mantê-la
+              presa ao ciclo do abuso. Reconhecer e buscar ajuda são passos
+              essenciais para escapar desse tipo de relação e recuperar a
+              segurança e o bem-estar emocional.
+            </p>
+          </details>
+          <details id="list">
+            <summary>
+              Sírdromes de pânico<i class="fa-solid fa-arrow-down"></i>
+            </summary>
+            <p>
+              Uma crise de pânico é um episódio súbito e intenso de medo ou
+              desconforto extremo, acompanhado por sintomas físicos e emocionais
+              intensos. Durante uma crise, a pessoa pode sentir uma sensação
+              avassaladora de perigo iminente ou morte iminente, mesmo que não
+              haja uma ameaça real presente.
+            </p>
+          </details>
+          <details id="list">
+            <summary>Traumas<i class="fa-solid fa-arrow-down"></i></summary>
+            <p>
+              Traumas são experiências emocionais extremamente dolorosas, muitas
+              vezes acompanhadas por um senso de perigo iminente, impotência ou
+              horror intenso. Podem resultar de eventos traumáticos, como
+              acidentes graves, abuso físico ou emocional, desastres naturais,
+              violência, ou perdas significativas. Essas experiências podem
+              causar impacto profundo na saúde mental e emocional das pessoas,
+              levando a sintomas como flashbacks, pesadelos, ansiedade intensa,
+              evitação de situações relacionadas ao trauma e problemas de
+              relacionamento. O tratamento geralmente envolve terapia
+              especializada para ajudar a pessoa a processar e superar essas
+              experiências.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section id="rating">
+        <div class="rating_txt">
+          <h2>AVALIAÇÕES</h2>
+          <ul>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+          </ul>
+        </div>
+
+        <div id="siler-box">
+          <div class="slider_one">
+            <div class="slides_one">
+              <div class="slide_one">
+                <img src="./media/Amanda.png" alt="" />
+                <ul>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <p>
+                  "Super indico o Dr., no 1° atendimento já me senti super
+                  acolhida e a cada atendimento estamos evoluindo para minha
+                  melhora."
+                </p>
+                <span>- Amanda Barros</span>
+              </div>
+              <div class="slide_one">
+                <img src="./media/Milene.png" alt="" />
+                <ul>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <p>
+                  "Sem ajuda dele, eu não teria conseguido passar por uma fase
+                  difícil, e continuo com as sessões ate hoje! Graças a Deus o
+                  Antonio existe"
+                </p>
+                <span>- Milene Menezes</span>
+              </div>
+              <div class="slide_one">
+                <img src="./media/Milena.png" alt="" />
+                <ul>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <p>
+                  "Ótimo psicanalista, muito competente, preparado e
+                  compromissado!"
+                </p>
+                <span>- Milena Augusto</span>
+              </div>
+            </div>
+          </div>
+          <div class="slider_two">
+            <div class="slides_two">
+              <div class="slide_two">
+                <img src="./media/Rayssa.png" alt="" />
+                <ul>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <p>
+                  "Antônio me ajudou muito, na fasse mais difícil da minha vida,
+                  ele me ajudou a se livrar de remédios controlados, depr4ssão e
+                  até mesmo suicídi7, cada sessão é aliviadora de dores
+                  emocionais.
+                </p>
+                <span>- Rayssa Mendonça</span>
+              </div>
+              <div class="slide_two">
+                <img src="./media/Alyn.png" alt="" />
+                <ul>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <p>
+                  "O Antônio é incrível! Desde a 1ª sessão foi só tapa na cara
+                  kkk Ele abriu meus olhos para inúmeras situações em que eu
+                  havia normalizado. Só gratidão!"
+                </p>
+                <span>- Alyn Borges</span>
+              </div>
+              <div class="slide_two">
+                <img src="./media/Bruno.png" alt="" />
+                <ul>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <p>
+                  "Me ajudou a me renguer do fundo do poço, exengar quem eu era
+                  e ter de volta minha autoestima."
+                </p>
+                <span>- Bruno Wilson</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Wave--Background-->
+      <div class="bg">
+        <svg
+          version="1.0"
+          xmlns="http://www.w3.org/2000/svg"
+          class="bg_wave"
+          viewBox="0 0 1251.000000 84.000000"
+          preserveAspectRatio="xMidYMid meet"
+        >
+          <g
+            transform="translate(0.000000,84.000000) scale(0.100000,-0.100000)"
+            fill="#fafafa"
+            stroke="none"
+          >
+            <path
+              d="M0 685 l0 -154 53 -16 c153 -46 465 -64 812 -46 121 6 483 31 805 56
+         1053 80 1376 95 2030 95 1131 0 1954 -79 3920 -375 745 -112 919 -137 1190
+         -170 583 -71 532 -68 1328 -72 625 -4 754 -2 875 12 409 46 802 139 1084 256
+         139 58 217 99 321 169 l92 61 0 170 0 169 -6255 0 -6255 0 0 -155z"
+            />
+          </g>
+        </svg>
+      </div>
+      <section id="clinic">
+        <h2 class="check_title">O CONSULTORIO</h2>
+        <div id="check">
+          <div class="check_box">
+            <div id="careful-illustration-mobile">
+              <img src="./media/clinic.png" alt="" />
+            </div>
+            <p class="check_text">
+              —— Meu consultório está estrategicamente localizado na Vila
+              Matilde, a apenas 200 metros da estação de metrô Vila Matilde, em
+              São Paulo, garantindo fácil acesso para todos os pacientes.
+              Oferecemos um ambiente acolhedor e agradável, projetado para que
+              você se sinta confortável e bem-vindo desde o momento em que
+              chega. Invista em seu bem-estar emocional e descubra o poder da
+              transformação pessoal. Agende uma consulta e permita-se
+              experimentar uma vida mais equilibrada e satisfatória. Estou aqui
+              para guiá-lo em cada passo dessa jornada.
+            </p>
+          </div>
+          <ul class="check_list">
+            <li>
+              <i class="fa-solid fa-door-open">
+                <h3>Autoconhecimento e compreensão emocional</h3></i
+              >
+              <p>
+                — Você já se perguntou como seria entender melhor suas emoções e
+                comportamentos? Com a psicanálise, você pode explorar os
+                aspectos mais profundos da sua mente em um espaço seguro e
+                acolhedor. Ao analisar pensamentos inconscientes, traumas e
+                conflitos internos, ofereço a oportunidade de desenvolver um
+                autoconhecimento profundo e compreender melhor seus padrões de
+                comportamento.
+              </p>
+            </li>
+            <li>
+              <i class="fa-solid fa-brain"
+                ><h3>Libere-se de Traumas e Conflitos do Passado</h3></i
+              >
+              <p>
+                — Muitas vezes, traumas e conflitos passados influenciam
+                negativamente nosso presente. Meu serviço de psicanálise busca
+                investigar e resolver essas questões enraizadas no inconsciente.
+                Ao trazê-las à tona, trabalhamos juntos na resolução desses
+                problemas, promovendo um processo de cura e transformação
+                pessoal. Imagine a liberdade de deixar para trás aquilo que te
+                prende e avançar para uma vida mais plena e equilibrada.
+              </p>
+            </li>
+            <li>
+              <i class="fa-solid fa-user-group">
+                <h3>
+                  Construa Relacionamentos Interpessoais Mais Saudáveis
+                </h3></i
+              >
+              <p>
+                — Os relacionamentos são uma parte fundamental da nossa vida, e
+                compreender como nos relacionamos com os outros é essencial para
+                a nossa felicidade. Através da psicanálise, você pode
+                desenvolver uma maior consciência dos seus padrões de
+                comportamento e das dinâmicas familiares. Isso permite que você
+                construa relações mais saudáveis e satisfatórias, melhorando
+                significativamente sua qualidade de vida.
+              </p>
+            </li>
+            <li>
+              <i class="fa-solid fa-handshake-angle">
+                <h3>Desenvolvimento pessoal e crescimento emocional</h3></i
+              >
+
+              <p>
+                — Transforme sua vida através da psicanálise, um poderoso
+                instrumento para o crescimento emocional e desenvolvimento
+                pessoal. Ao mergulhar nas profundezas da mente, você pode
+                superar obstáculos, expandir sua consciência e conquistar um
+                equilíbrio emocional mais profundo. Descubra como a psicanálise
+                pode ajudá-lo a alcançar o seu melhor, tanto emocional quanto
+                pessoalmente.
+              </p>
+            </li>
+          </ul>
+
+          <ul class="check_list_mobile">
+            <li>
+              <i class="fa-solid fa-door-open">
+                <h3>Autoconhecimento e compreensão emocional</h3></i
+              >
+              <p>
+                — Você já se perguntou como seria entender melhor suas emoções e
+                comportamentos? Com a psicanálise, você pode explorar os
+                aspectos mais profundos da sua mente em um espaço seguro e
+                acolhedor.
+              </p>
+            </li>
+
+            <li>
+              <i class="fa-solid fa-brain"
+                ><h3>Libere-se de Traumas e Conflitos do Passado</h3></i
+              >
+              <p>
+                — Muitas vezes, traumas e conflitos passados influenciam
+                negativamente nosso presente. Meu serviço de psicanálise busca
+                investigar e resolver essas questões enraizadas no inconsciente.
+              </p>
+            </li>
+
+            <li>
+              <i class="fa-solid fa-user-group">
+                <h3>
+                  Construa Relacionamentos Interpessoais Mais Saudáveis
+                </h3></i
+              >
+              <p>
+                — Os relacionamentos são uma parte fundamental da nossa vida, e
+                compreender como nos relacionamos com os outros é essencial para
+                a nossa felicidade. Através da psicanálise, você pode
+                desenvolver uma maior consciência dos seus padrões de
+                comportamento e das dinâmicas familiares.
+              </p>
+            </li>
+            <li>
+              <i class="fa-solid fa-handshake-angle">
+                <h3>Desenvolvimento pessoal e crescimento emocional</h3></i
+              >
+
+              <p>
+                — Transforme sua vida através da psicanálise, um poderoso
+                instrumento para o crescimento emocional e desenvolvimento
+                pessoal. Ao mergulhar nas profundezas da mente, você pode
+                superar obstáculos, expandir sua consciência e conquistar um
+                equilíbrio emocional mais profundo.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="scheduling">
+        <div id="tk">
+          <h1 class="tk_title">VAMOS <span>CONVERSAR?</span></h1>
+          <div id="talkimg-mobile">
+            <img src="./media/talkimage.png" alt="" />
+          </div>
+          <p class="tk_description">
+            Convido você a embarcar comigo em uma jornada de autodescoberta
+            através da psicanálise. Juntos, podemos desempenhar um papel crucial
+            na compreensão profunda da mente e na busca pelo bem-estar
+            emocional. Ao explorar os mistérios do seu mundo interior, essa
+            abordagem terapêutica nos permitirá encontrar respostas e soluções
+            para os desafios e conflitos que surgem em sua vida.
+          </p>
+          <div id="btn-tk">
+            <a href="#">MARQUE SUA CONSULTA AGORA!</a>
+          </div>
+        </div>
+        <div id="talkimg">
+          <img src="./media/talkimage.png" alt="" />
+        </div>
+      </section>
+
+      <div id="div-fixa" class="flutuar" data-shrin="yes">
+        <a href="https://web.whatsapp.com/" target="_blank">
+          <div class="flex-itens">
+            <img src="./media/whatsapp.png" alt="chamar no whatsapp" />
+            <span>ENTRE EM CONTATO</span>
+          </div>
+        </a>
+      </div>
+      <div class="top">
+        <a href="#"
+          ><button class="btn_top">
+            <i class="fa-solid fa-arrow-up-long"></i></button
+        ></a>
+      </div>
+    </main>
+    <footer id="footer">
+      <img src="./media/logo-white.png" alt="" />
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
